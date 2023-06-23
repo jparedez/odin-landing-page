@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: 18px;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
