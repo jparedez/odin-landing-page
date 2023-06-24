@@ -20,9 +20,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
+}
+
+.header-wrapper {
     width: 75%;
     margin: 0 auto;
-    padding: 20px 0;
 }
 
 .nav-list {
@@ -35,4 +38,9 @@ header {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
 }
