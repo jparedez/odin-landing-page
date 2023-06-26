@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #1f2937;
+    background: linear-gradient(#190045, #450035);
 }
 
 .logo {
@@ -74,10 +74,10 @@ header {
 }
 
 .hero-button {
-    background-color: #3882f6;
+    background-color: #eb7134;
     color: #f9faf8;
     padding: 10px 35px;
-    border: 2px solid #3882f6;
+    border: 2px solid #eb7134;
     border-radius: 8px;
     font-weight: 700;
     font-size: 18px;
@@ -86,7 +86,7 @@ header {
 .hero-button:hover {
     transition: 300ms;
     background-color: #f9faf8;
-    color: #3882f6;
+    color: #eb7134;
     border: 2px solid #f9faf8;
     cursor: pointer;
 }
@@ -98,10 +98,11 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    background-color: #450035;
 }
 
 .information-header-text {
-    color: #1f2937;
+    color: #e5e7eb;
     font-weight: 700;
     font-family: 'Caveat', cursive;
     font-size: 46px;
@@ -109,17 +110,18 @@ header {
 }
 
 .card-image {
-    border: 5px solid #3882f6;
+    border: 5px solid #eb7134;
     width: 180px;
     height: 180px;
     border-radius: 30px;
+    background-color: #190045;
 }
 
 .card-desc {
     text-align: center;
     font-size: 18px;
     padding-top: 10px;
-    color: #6d7681;
+    color: #e5e7eb;
 }
 
 .cards {
@@ -132,7 +134,7 @@ header {
 }
 
 .quote-section {
-    background-color: #e5e7eb;
+    background: linear-gradient(#450035, #190045);
 }
 
 .quote-wrapper {
@@ -146,14 +148,14 @@ header {
 
 .quote-text {
     font-size: 36px;
-    color: #1f2937;
+    color: #e5e7eb;
     font-weight: 300;
     font-style: italic;
 }
 
 .quote-credits {
     font-size: 30px;
-    color: #1f2937;
+    color: #e5e7eb;
     font-weight: 700px;
     align-self: flex-end;
 }
@@ -162,10 +164,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #190045;
 }
 
 .call-to-action {
-    background-color: #3882f6;
+    background-color: #450035;
     width: 70%;
     padding: 50px 0px;
     margin: 0 auto;
@@ -174,8 +177,8 @@ header {
     border-radius: 10px;
 }
 
-.hero-button-reverse {
-    background-color: #3882f6;
+.hero-button {
+    background-color: #eb7134;
     color: #f9faf8;
     padding: 10px 35px;
     border: 3px solid #f9faf8;
@@ -184,11 +187,11 @@ header {
     font-size: 18px;
 }
 
-.hero-button-reverse:hover {
+.hero-button:hover {
     transition: 300ms;
     background-color: #f9faf8;
-    color: #3882f6;
-    border: 2px solid #f9faf8;
+    color: #eb7134;
+    border: 3px solid #f9faf8;
     cursor: pointer;
 }
 
@@ -197,7 +200,7 @@ header {
 }
 
 footer {
-    background-color: #1f2937;
+    background-color: #eb7134;
     padding: 40px;
     display: flex;
     flex-direction: column;
