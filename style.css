@@ -200,6 +200,13 @@ footer {
     background-color: #1f2937;
     padding: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+}
+
+.link {
+    color: #e5e7eb;
+    font-weight: 700;
 }
