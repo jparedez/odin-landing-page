@@ -191,3 +191,7 @@ header {
     border: 2px solid #f9faf8;
     cursor: pointer;
 }
+
+.cta-text h2 {
+    color: white;
+}
