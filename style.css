@@ -130,3 +130,30 @@ header {
 .card {
     width: 180px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-credits {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 700px;
+    align-self: flex-end;
+}
